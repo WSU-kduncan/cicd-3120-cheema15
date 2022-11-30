@@ -34,7 +34,7 @@ website used: https://docs.docker.com/engine/install/ubuntu/
 There are differnt ways to run the container. The way that i found the simpelist is logging into docker desktop and hitting run on te container you needto run.
 
 
-## How to view thw project is running:
+## How to view the project is running:
 What you could do to see if the project is running is you will have to go to your powershell and run the command ipcofig. Then go down to the wireless adapter and get the ipv4 adress. From there you will copy the adress and put it into your browser. and using :8080 after the ipv4 adress. So it would look like this 10.16.247.221:8080. Another thing you could do is localhost:8080 . 
 
 
