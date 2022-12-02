@@ -25,10 +25,13 @@ jobs:
         uses: docker/setup-buildx-action@v2
       -
         name: Collecting tag names info
+        id: meta
         uses: docker/metadata-actions@v4 
         with:
           images: |
             cheema15/3120project5
+          flavor: |
+            latest=auto
           tags: | 
              type=ref,event=branch
              type=semver,pattern={{major}}.{{minor}}
