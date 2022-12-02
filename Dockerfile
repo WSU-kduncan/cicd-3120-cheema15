@@ -5,4 +5,6 @@ Run apt-get update
 
 Copy wesite.html/ :/usr/share/nginx/html/
 
-EXPOSE 80
+CMD ["website", "website/website.html/website.html"]
+Expose 80
+
