@@ -45,7 +45,15 @@ website used: https://docs.docker.com/engine/install/ubuntu/
 ## How to authenticate with dockerhub
 - To authenicate dockerhub you can get a acess token. When you create the token you would use the read write and delete credentials. So it will be authorized to read and write and delete images in my repo. Plus we need to bealbe to push and pull so you will need we read and write at the least.
  
- Then you would use the docker login command and the the password it gives will be the token that you were provided!
+   Then you would use the docker login command and the the password it gives will be the token that you were provided!
  
  
- ## 
+ ## Cofiguring GitHub secrets
+ - we did not want anyone that was in our repo to see our docker username or password so we made a docker username and password secret.
+
+
+## GitHub workflow
+- What a git hub workflow does is it has a copy of yml code and in that code it has rules and jobs that it needs to follow when something is pushed. 
+- 
+
+
