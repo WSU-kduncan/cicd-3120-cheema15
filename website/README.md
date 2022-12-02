@@ -49,11 +49,13 @@ website used: https://docs.docker.com/engine/install/ubuntu/
  
  
  ## Cofiguring GitHub secrets
- - we did not want anyone that was in our repo to see our docker username or password so we made a docker username and password secret.
+ - we did not want anyone that was in our repo to see our docker username or password so we made a docker username and password secret. We also need to make the username and password in the sectrets for when we have our workflows they are not exposed in our file.
 
 
 ## GitHub workflow
 - What a git hub workflow does is it has a copy of yml code and in that code it has rules and jobs that it needs to follow when something is pushed. 
-- 
+-  In th workflow that was given from the template i used the pushing images to docker hub. and the customs to this project would be that you hve to have a docker login and passwork to run then workflow and to push to docker hub. 
+
+
 
 
