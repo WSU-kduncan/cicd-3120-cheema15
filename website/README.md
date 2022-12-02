@@ -31,11 +31,21 @@ website used: https://docs.docker.com/engine/install/ubuntu/
 
 
 ## How to run the container:
-There are differnt ways to run the container. The way that i found the simpelist is logging into docker desktop and hitting run on te container you needto run.
+- There are differnt ways to run the container. The way that i found the simpelist is logging into docker desktop and hitting run on te container you needto run.
 
 
 ## How to view the project is running:
-What you could do to see if the project is running is you will have to go to your powershell and run the command ipcofig. Then go down to the wireless adapter and get the ipv4 adress. From there you will copy the adress and put it into your browser. and using :8080 after the ipv4 adress. So it would look like this 10.16.247.221:8080. Another thing you could do is localhost:8080 . 
+- What you could do to see if the project is running is you will have to go to your powershell and run the command ipcofig. Then go down to the wireless adapter and get the ipv4 adress. From there you will copy the adress and put it into your browser. and using :8080 after the ipv4 adress. So it would look like this 10.16.247.221:8080. Another thing you could do is localhost:8080 . 
 
 
+## How to create your public repo in dockerhub
+- To create your repo you will first have to make a docker account.Then go onto the repositories tab. After that you will click create a repritory and name it and give a description of what it is for. Then make sure it is pubic anf hit create.
 
+
+## How to authenticate with dockerhub
+- To authenicate dockerhub you can get a acess token. When you create the token you would use the read write and delete credentials. So it will be authorized to read and write and delete images in my repo. Plus we need to bealbe to push and pull so you will need we read and write at the least.
+ 
+ Then you would use the docker login command and the the password it gives will be the token that you were provided!
+ 
+ 
+ ## 
