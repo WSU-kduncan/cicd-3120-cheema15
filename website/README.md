@@ -72,3 +72,7 @@ website used: https://docs.docker.com/engine/install/ubuntu/
 ## Diagram
 ![image](https://user-images.githubusercontent.com/97908618/205420821-d0aa973d-77df-4a9b-8fd7-75a8c6f664b4.png)
 
+
+![image](https://user-images.githubusercontent.com/97908618/205421145-b4da7c53-9351-4cd8-9ec4-b777c1c6d60b.png)
+
+
