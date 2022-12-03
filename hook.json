@@ -1,0 +1,8 @@
+[
+          {
+                      "id": "webhook",
+                          "execute-command": "/home/ubuntu/new.sh",
+                              "command-working-directory": "/var/webhook"
+                                }
+]
+~            
