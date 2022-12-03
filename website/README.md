@@ -57,5 +57,18 @@ website used: https://docs.docker.com/engine/install/ubuntu/
 -  In th workflow that was given from the template i used the pushing images to docker hub. and the customs to this project would be that you hve to have a docker login and passwork to run then workflow and to push to docker hub. 
 
 
+## Description of container restart script
 
+
+## Setting up a webhook on the server
+- To set up the listener i had to made a hook.json file. The template for the file that was used was from class. I had to change id name so that i can have it for my elastic ip. Then for the execute command i needed to change it so that is would be /home/ubuntu/ and the i added the new.sh file that i had.
+- To install the webhook first i copied the link firm the snap wtore and then went into wsl2 and did wget followed by the link. This installed the package for go and out webhook. Then i went into docker hun clicked on the tav that said webhooks and created a new one to deploy the image and the used the 18.235.123.244/hook/webhook (webhook) because that is what i used to name the hook in the json file.
+
+
+## Description of Webhook task definition file
+
+
+
+## Diagram
+![image](https://user-images.githubusercontent.com/97908618/205420821-d0aa973d-77df-4a9b-8fd7-75a8c6f664b4.png)
 
